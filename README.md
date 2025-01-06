@@ -24,6 +24,6 @@ python main.py
 ```
 
 ## Acknowledgement
-DGL: https://www.dgl.ai/
-KPGT: https://github.com/lihan97/KPGT
+DGL: https://www.dgl.ai/  
+KPGT: https://github.com/lihan97/KPGT  
 ESM: https://github.com/facebookresearch/esm
