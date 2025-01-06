@@ -1,26 +1,20 @@
 # Herbal ingredient-target interaction prediction via multi-modal learning (Multi-ITI)
 ## Introduction
-
+![image](https://github.com/Xudong-Liang/Multi-ITI/blob/main/overview.png)
 
 Multi-ITI is a multi-modal learning framework for predicting Herbal ingredient-target interactions (ITIs). It consists of a biological feature learning module and a heterogeneous graph learning module. The biological feature learning module integrates pre-trained models to build deep feature representations for ingredients and targets, while the heterogeneous graph learning module leverages a heterogeneous graph neural network with dynamic attention mechanisms to capture ingredient-target network interactions and mitigate the impact of noisy connections.
 
 ## Environment
 We conduct our experiments with python3.8. Here are the requirements
 ```
-descriptastorus
-matplotlib
-networkx
-numpy
-pandas
-prettytable
-rdkit
-Requests
-scikit_learn
-scipy
-subword_nmt
-torch
-torch_geometric
-torchvision
+- **torch**: 1.13.1
+- **dgl**: 1.1.1+cu116
+- **numpy**: 1.24.4
+- **scikit-learn**: 1.3.0
+- **pandas**: 1.5.3
+- **matplotlib**: 3.7.2
+- **rdkit**: 2023.9.6
+- **tqdm**: 4.65.0
 ```
 
 ## Usage
