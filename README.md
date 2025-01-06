@@ -20,7 +20,7 @@ We conduct our experiments with python3.8. Here are the requirements
 ## Usage
 
 - Download the pre-trained node embeddings file **`initial_features.pkl`** ([download link](https://drive.google.com/file/d/1KqOOoh_lCJbvmBiWzmX77Oxm3kW0hJeH/view?usp=sharing)) and place it in the `data` folder.
-- `python main.py`
+- python main.py
 
 ## Acknowledgement
 DGL: https://www.dgl.ai/  
