@@ -6,7 +6,7 @@ Multi-ITI is a multi-modal learning framework for predicting herbal ingredient-t
 
 ## Environment
 We conduct our experiments with python3.8. Here are the requirements
-```
+
 - torch: 1.13.1
 - dgl: 1.1.1+cu116
 - numpy: 1.24.4
@@ -15,7 +15,7 @@ We conduct our experiments with python3.8. Here are the requirements
 - matplotlib: 3.7.2
 - rdkit: 2023.9.6
 - tqdm: 4.65.0
-```
+
 
 ## Usage
 
